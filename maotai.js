@@ -1,7 +1,4 @@
-const needReturnUrls = [
-    'www.taobao.com/markets/bx/wait_pc',
-    'www.tmall.com/home'
-];
+const needReturnUrls = [];
 const maotaiUrl = 'https://product.suning.com/0000000000/11001203841.html';
 const buyBtnId = 'buyNowAddCart';
 const submitBtnId = 'submit-btn';
