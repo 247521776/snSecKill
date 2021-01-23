@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "snSecKill",
+  "version": "1.0",
+  "description": "苏宁抢购茅台",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://product.suning.com/*",
+        "https://www.suning.com/*",
+        "https://shopping.suning.com/*"
+      ],
+      "js": ["maotai.js"],
+	  "run_at": "document_idle"
+    }
+  ]
+}
