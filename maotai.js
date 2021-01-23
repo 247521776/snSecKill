@@ -59,7 +59,7 @@ function submitOrder() {
 
 //目标时间
 var dDate = new Date();
-dDate.setHours(20, 29, 59);
+dDate.setHours(09, 29, 59);
 
 //进入时间判断循环
 function enterTimeCheckLoop(callback) {
